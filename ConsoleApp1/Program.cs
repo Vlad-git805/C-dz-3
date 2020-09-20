@@ -60,21 +60,44 @@ namespace ConsoleApp1
             //Console.WriteLine(newstr);
 
             //3
-            //string str = "lol kek 13wsdq. dsa fds esdzf asdf   .dsadsa asda";
+            //string str = ".lol kek 13wsdq dsa fds esdzf asdf   .dsadsa asda . asdsadsdf f fdas. sadsad.  .  asd.";
             //Console.WriteLine(str);
             //string[] str2 = str.Split(new char[] { '.', '\n' }, StringSplitOptions.RemoveEmptyEntries);
-            //string[] str3 = str2[1].Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            //string[] str3;
+            //if (str[0] != '.')
+            //{
+            //    str3 = str2[1].Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            //}
+            //else
+            //{
+            //    str3 = str2[0].Split(new char[] { ' ', '\n' }, StringSplitOptions.RemoveEmptyEntries);
+            //}
             //Console.WriteLine();
             //String s10 = String.Join("", str3);
-            //Console.WriteLine(s10);
-            //string str_point = ".";
-            //s10 += ".";
-            //str_point += s10;
-            //s10 = str_point;
-            //Console.WriteLine(s10);
-            //str2[1] = s10;
-            //String s11 = String.Join("", str2);
-            //str = s11;
+            //if (str[0] != '.')
+            //{
+            //    str2[1] = s10;
+            //}
+            //else
+            //{
+            //    str2[0] = s10;
+            //}
+            //String s11 = String.Join(".", str2);
+
+            //if(str[0] == '.')
+            //{
+            //    string str_new = ".";
+            //    str_new += s11;
+            //    s11 = str_new;
+            //}
+
+            //if (str[str.Length - 1] == '.')
+            //{
+            //    str = s11 + '.';
+            //}
+            //else
+            //    str = s11;
+
             //Console.WriteLine();
             //Console.WriteLine(str);
 
